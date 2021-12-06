@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d23f268b-e51b-4bb8-bbbc-7ecca8e53947"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="test_ranorex">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="42;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="40487f75-7c5b-4a95-b34b-9d671ecbb07b"
+		sx="1061"
+		sy="226"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0720bea5-13c4-422d-853a-72856f1bacf4"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1019,215,96,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						sf-OldMyAccount-PhY-T
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Giriş Yap
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						sf-OldMyAccount-PhY-T
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Giriş Yap
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="href"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="rel"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.hepsiburada.com']//div[#'myAccount']/?/?/span[@title='Giriş Yap']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="eb2a6e11-3430-4d3f-be6d-4870e6d4e105">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="54;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c3d909d3-0b03-4101-a591-a2532262a7aa"
+		sx="1024"
+		sy="287"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9edb67c6-f1a9-4abe-9a0c-a1693aad9f77"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="970,282,156,13"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						login
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Giriş Yap
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://www.hepsiburada.com/uyelik/giris?ReturnUrl=https%3A%2F%2Fwww.hepsiburada.com%2F
+					</attribute>
+					<attribute
+					name="rel"
+					type="System.String">
+						nofollow
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Giriş yap
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.hepsiburada.com']//a[#'login']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="be99cfbb-647c-48e2-8439-80ad88b49cfd">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAuANADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBv2h/R
+a2dOijks0kdFZmznIz3xWT5C+pra05QtjGB2z/M1nFSvqXJxtoTeRD/zyT/vkUeRD/zyT/vkU53W
+NGdzhVBJPtVP+1rH/nv/AOON/hVtpbijCUvhVy15EP8AzyT/AL5FHkQ/88k/75FVf7Wsf+e//jjf
+4Uf2tY/89/8Axxv8KOZdyvY1P5X9xa8iH/nkn/fIo8iH/nkn/fIqr/a1j/z3/wDHG/wo/tax/wCe
+/wD443+FHMu4exqfyv7i15EP/PJP++RR5EP/ADyT/vkVV/tax/57/wDjjf4Uf2tY/wDPf/xxv8KO
+Zdw9jU/lf3FryIf+eSf98igQxKciNAfUKKq/2tY/89//ABxv8KP7Wsf+e/8A443+FHMu4exqfyv7
+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
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="11fb4265-c830-4dfa-af04-10400e64a30f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1d1c3b50-40bd-433f-942e-eb7bd0ff73ae"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="512,345,326,56"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						hb-AxiLy czA-dbk s6tt47j2l9g
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						txtUserName
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						czA-dbk hb-AxiLy s6tt47j2l9g
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						username
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						username
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						E-posta adresi veya telefon numarası
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='giris.hepsiburada.com']//input[#'txtUserName']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="aa8c53f1-4991-41c7-a734-d428d222ada2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d29386dd-fe1b-4594-b1c0-986d95773159"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="1"
+				prefcap="buttontag"
+				rect="512,458,326,56"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						hb-AxmME dXgIND shztlu4ei63
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						btnLogin
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Giriş yap
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						dXgIND hb-AxmME shztlu4ei63
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						btnLogin
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						submit
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="kind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='giris.hepsiburada.com']//button[#'btnLogin']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5a81faba-543c-4f11-af4d-5ae663e82d37">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4a6e3aa0-a1aa-4f15-91e6-e4e9d6b5e706"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="512,534,141,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_17OD2T5uhxYRT6atZy_yA7 hpa5gnmuOMPuH0E31USHp false
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yardıma ihtiyacım var
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_17OD2T5uhxYRT6atZy_yA7 false hpa5gnmuOMPuH0E31USHp
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span[@innertext='Yardıma ihtiyacım var']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3e756a6c-dbd1-44df-8730-d650aa89b139">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="61c99f94-ea22-4caf-a6d1-22566e23c32a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="732,284,47,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_2q4oJzGUsyLIOBhRdWWO9D
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Üye ol
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_2q4oJzGUsyLIOBhRdWWO9D
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[1]/?/?/div[@innertext='Üye ol']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c81448a8-ff48-4298-93bd-50ef198e9b8c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4aa53b42-6603-4bc5-bc48-94ac9b3eb62f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="561,284,66,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						_2q4oJzGUsyLIOBhRdWWO9D
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Giriş yap
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						_2q4oJzGUsyLIOBhRdWWO9D
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[1]/?/?/div[@innertext='Giriş yap']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Visible
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="6840b84f-262c-40c8-97a8-cb7e5c3d2cbb"
+	name="test_ranorexRepository"
+	relativepath="test_ranorexRepository.rxrep">
+		<codegen
+		classname="test_ranorexRepository"
+		namespace="test_ranorex">
+		</codegen>
+		<rootfolder
+		id="19154c89-4b3d-4939-bf84-da4b6e0e6c07"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

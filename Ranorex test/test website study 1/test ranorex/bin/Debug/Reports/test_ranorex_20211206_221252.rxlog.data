@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="39.21s"
+		durationms="39209"
+		type="root"
+		rid="87c54de79e6891c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="skynete"
+		rxversion="10.1.0.0"
+		host="SKYEYE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="ar-LB"
+		screenresolution="1366x768"
+		timestamp="06/12/2021 10:12:52 PM"
+		timestampiso="2021-12-06T20:12:52"
+		endtime="06/12/2021 10:13:32 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="36.31s"
+			durationms="36306"
+			type="test-suite"
+			rid="779d6bde357298"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="test_ranorex"
+			headertext="test_ranorex"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="36.23s"
+				durationms="36233"
+				type="test-case"
+				rid="1d61499da96c35c7"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="case_8"
+				testcontainerid="9a929148-7e67-4c55-8fc3-e1051ff723e3"
+				headertext="case_8"
+				displayName="case_8"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="907ms"
+					durationms="907"
+					type="setup-container"
+					rid="1ea2fb8ed1b997be"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="877ms"
+						durationms="877"
+						type="test-module"
+						rid="1102e8f6317b5286"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="3cba5a97-3100-4257-b510-3a84648b2c62"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.127"
+							timeRelativeToTestModuleStartTime="00:00.020"
+							timeWallClock="22:12:55"
+							time="00:00.127"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://www.hepsiburada.com/' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="35.3s"
+					durationms="35303"
+					type="test-module"
+					rid="1e20bff31dde9d7c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording6"
+					displayName="Recording6"
+					moduleid="6903bafd-88bc-4116-924d-40aeb5f8c7fe"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Visible' of element for item 'test_ranorexRepository.ApplicationUnderTest.Login' does not match the specified value (actual='True', expected='False').
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.994"
+						timeRelativeToTestModuleStartTime="00:00.005"
+						timeWallClock="22:12:56"
+						time="00:00.994"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.Hesabım' at 39;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//div[#'myAccount']//span[@innertext='Hesabım']"
+							itempath=".//div[#'myAccount']//span[@innertext='Hesabım']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.Hesabım"
+							id="54bc107b49ad4696bdde0c4ea8871575"
+							timeout="60000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.177"
+						timeRelativeToTestModuleStartTime="00:14.189"
+						timeWallClock="22:13:10"
+						time="00:15.177"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.CıkışYap' at 52;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//div[#'myAccount']//ul/?/?/a[@innertext='Çıkış Yap']"
+							itempath=".//div[#'myAccount']//ul/?/?/a[@innertext='Çıkış Yap']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.CıkışYap"
+							id="1e6c4897e5c04f0b8137efae4aabee1b"
+							timeout="60000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.030"
+						timeRelativeToTestModuleStartTime="00:15.042"
+						timeWallClock="22:13:11"
+						time="00:16.030"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest' at 1058;150.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']"
+							itempath="/dom[@domain='www.hepsiburada.com']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.Self"
+							id="bb18c67932a9484a879df06f2b8bd8a2"
+							timeout="30000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.511"
+						timeRelativeToTestModuleStartTime="00:15.522"
+						timeWallClock="22:13:12"
+						time="00:16.511"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.GirişYap' at 38;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//div[#'myAccount']/?/?/span[@title='Giriş Yap']"
+							itempath=".//div[#'myAccount']/?/?/span[@title='Giriş Yap']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.GirişYap"
+							id="0720bea513c4422d853a72856f1bacf4"
+							timeout="60000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.660"
+						timeRelativeToTestModuleStartTime="00:31.672"
+						timeWallClock="22:13:28"
+						time="00:32.660"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Valid='True') on item 'ApplicationUnderTest.Login'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//a[#'login']"
+							itempath=".//a[#'login']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.Login"
+							id="9edb67c6f1a94abe9a0ca1693aad9f77"
+							timeout="60000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.782"
+						timeRelativeToTestModuleStartTime="00:31.793"
+						timeWallClock="22:13:28"
+						time="00:32.782"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Valid' of element for item 'test_ranorexRepository.ApplicationUnderTest.Login' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//a[#'login']"
+							itempath=".//a[#'login']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.Login"
+							id="9edb67c6f1a94abe9a0ca1693aad9f77"
+							timeout="60000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="99"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.930"
+						timeRelativeToTestModuleStartTime="00:31.942"
+						timeWallClock="22:13:28"
+						time="00:32.930"
+						level="Info"
+						category="Validation"
+						errimg="images_test_ran_13cccf5a\test_ran_13cccf5a_f80ef058_trace.jpg"
+						errthumb="images_test_ran_13cccf5a\test_ran_13cccf5a_f80ef058_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Visible='False') on item 'ApplicationUnderTest.Login'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//a[#'login']"
+							itempath=".//a[#'login']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.Login"
+							id="9edb67c6f1a94abe9a0ca1693aad9f77"
+							timeout="60000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.132"
+						timeRelativeToTestModuleStartTime="00:35.143"
+						timeWallClock="22:13:31"
+						time="00:36.132"
+						level="Failure"
+						category="Validation"
+						errimg="images_test_ran_13cccf5a\test_ran_13cccf5a_938cb50e_trace.jpg"
+						errthumb="images_test_ran_13cccf5a\test_ran_13cccf5a_938cb50e_trace_thumb.jpg">
+						<message>
+							Attribute 'Visible' of element for item 'test_ranorexRepository.ApplicationUnderTest.Login' does not match the specified value (actual='True', expected='False').
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//a[#'login']"
+							itempath=".//a[#'login']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.Login"
+							id="9edb67c6f1a94abe9a0ca1693aad9f77"
+							timeout="60000"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="103"
+							loglvl="Failure"
+							itemindex="5">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.173"
+						timeRelativeToTestModuleStartTime="00:35.184"
+						timeWallClock="22:13:31"
+						time="00:36.173"
+						level="Error"
+						category="Module"
+						errimg="images_test_ran_13cccf5a\test_ran_13cccf5a_99cdacbd_trace.jpg"
+						errthumb="images_test_ran_13cccf5a\test_ran_13cccf5a_99cdacbd_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Visible' of element for item 'test_ranorexRepository.ApplicationUnderTest.Login' does not match the specified value (actual='True', expected='False').
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at test_ranorex.Recording6.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs:line 103
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\skynete\Documents\Ranorex\RanorexStudio Projects\test website study 1\test ranorex\Recording6.cs"
+							codeline="103"
+							type="repoitem"
+							path="/dom[@domain='www.hepsiburada.com']//a[#'login']"
+							itempath=".//a[#'login']"
+							fullname="test_ranorexRepository.ApplicationUnderTest.Login"
+							id="9edb67c6f1a94abe9a0ca1693aad9f77"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="5">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

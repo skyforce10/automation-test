@@ -1,0 +1,364 @@
+﻿<repository
+id="6840b84f-262c-40c8-97a8-cb7e5c3d2cbb"
+name="test_ranorexRepository">
+	<codegen
+	classname="test_ranorexRepository"
+	namespace="test_ranorex">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="19154c89-4b3d-4939-bf84-da4b6e0e6c07"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="bb18c679-32a9-484a-879d-f06f2b8bd8a2"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="010d5f6d-30c6-41be-a138-903731c11b4d"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9edb67c6-f1a9-4abe-9a0c-a1693aad9f77"
+			name="Login"
+			refimgid="caba7d74-50c5-4258-8207-f3bfd58b2409"
+			refpath="/dom[@domain='www.hepsiburada.com']//a[#'login']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//a[#'login']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="1e6c4897-e5c0-4f0b-8137-efae4aabee1b"
+			name="CıkışYap"
+			refimgid="2e75398d-f127-4ab7-8234-8729dad8ca5c"
+			refpath="/dom[@domain='www.hepsiburada.com']//div[#'myAccount']/div/div[2]/ul/li[9]/a[@innertext='Çıkış Yap']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//div[#'myAccount']//ul/?/?/a[@innertext='Çıkış Yap']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="0720bea5-13c4-422d-853a-72856f1bacf4"
+			name="GirişYap"
+			refimgid="bb9a3625-e073-4d06-b1e0-e638c974a811"
+			refpath="/dom[@domain='www.hepsiburada.com']//div[#'myAccount']/span/span[@title='Giriş Yap']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//div[#'myAccount']/?/?/span[@title='Giriş Yap']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="22834db8-2cfe-485b-9bba-c236207fb73e"
+			name="SepeteEkle"
+			refimgid="287e4b74-4b71-4121-b0fd-8c0300ad381f"
+			refpath="/dom[@domain='www.hepsiburada.com']//div[#'container']/div/div/main/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div[2]/div/div/a/button[@innertext='Sepete ekle']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//div[#'container']//main/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div[2]/div/?/?/a[@title&gt;'Samsung Galaxy A52 128 GB']/button[@innertext='Sepete ekle']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="54c58de4-4324-43ae-a018-7b4ce2da219a"
+			name="SepeteEkle1"
+			refimgid="f50c8b39-9609-4515-a0e6-43db8156bace"
+			refpath="/dom[@domain='www.hepsiburada.com']//div[#'container']/div/div/main/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div[3]/div/div/a/button[@innertext='Sepete ekle']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//div[#'container']//main/div/div/div[2]/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div[3]/div/?/?/a[@title&gt;'Are 2 Kutu Beyaz 100 adet']/button[@innertext='Sepete ekle']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1100c80a-c104-4e0d-8c33-d32f68be835e"
+			name="CartItemCount"
+			refimgid="c91e9f5b-0b40-4a74-b595-8a1a88adb5e0"
+			refpath="/dom[@domain='www.hepsiburada.com']//span[#'cartItemCount']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//span[#'cartItemCount']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="54bc107b-49ad-4696-bdde-0c4ea8871575"
+			name="Hesabım"
+			refimgid="77a9159c-be19-464c-b74d-06dd5802783d"
+			refpath="/dom[@domain='www.hepsiburada.com']//div[#'myAccount']/span/a/span[@innertext='Hesabım']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//div[#'myAccount']//span[@innertext='Hesabım']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f1b90f43-8c6d-4e10-a686-61c519f2fa3f"
+			name="SomeDivTag"
+			refimgid="a0be0fcc-0fe7-492b-9537-ae6bad9e5f63"
+			refpath="/dom[@domain='www.hepsiburada.com']//div[#'container']/div/div"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//div[#'container']/div/div
+			</item>
+			<basepath>
+				/dom[@domain='www.hepsiburada.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="58c7b4c4-66de-4125-904f-93391349b9a0"
+		isrooted="True"
+		name="UEyeGirişSayfasıUEyeOlHepsiburad"
+		refimgid="68f32555-8657-4915-8c8b-986b7d2635cf"
+		refpath="/dom[@domain='giris.hepsiburada.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="1d1c3b50-40bd-433f-942e-eb7bd0ff73ae"
+			name="TxtUserName"
+			refimgid="484676fb-24b9-43be-9386-af335635658f"
+			refpath="/dom[@domain='giris.hepsiburada.com']//input[#'txtUserName']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//input[#'txtUserName']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="d29386dd-fe1b-4594-b1c0-986d95773159"
+			name="BtnLogin"
+			refimgid="e7a96faf-b699-4909-9555-4a8ccb337341"
+			refpath="/dom[@domain='giris.hepsiburada.com']//button[#'btnLogin']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//button[#'btnLogin']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="4a6e3aa0-a1aa-4f15-91e6-e4e9d6b5e706"
+			name="need_to_help"
+			refimgid="3e3587c9-0fd5-45a8-9f3e-83a2bdb47b47"
+			refpath="/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span[@innertext='Yardıma ihtiyacım var']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span[@innertext='Yardıma ihtiyacım var']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="61c99f94-ea22-4caf-a6d1-22566e23c32a"
+			name="signup_div"
+			refimgid="651a12d4-5944-4c0f-af16-7bacada03ad9"
+			refpath="/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[1]/div[2]/div[@innertext='Üye ol']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[1]/?/?/div[@innertext='Üye ol']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4aa53b42-6603-4bc5-bc48-94ac9b3eb62f"
+			name="signin_div"
+			refimgid="9abe77bd-74c9-497b-b2bd-432d51a8988f"
+			refpath="/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[1]/div[1]/div[@innertext='Giriş yap']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[1]/?/?/div[@innertext='Giriş yap']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="47489660-04b6-4552-8fc1-1414604721e8"
+			name="error_msg"
+			refimgid="597a025e-5048-4919-aae7-2ea407c1d060"
+			refpath="/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/form[@action>'https://giris.hepsiburada.com/?ReturnUrl=https%3A%2F%2Foauth.hepsiburada.com%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DSPA%26redirect_uri%3Dhttps%253A%252F%252Fwww.hepsiburada.com%252Fuyelik%252Fcallback%26response_type%3Dcode%26scope%3Dopenid%2520profile']/div/div/div[@innertext='E-posta adresinizi veya telefon numaranızı girmelisiniz.']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//div[#'root']/div/div/div[1]/div[2]/div/div/div[2]/div[2]//form[@action='https://giris.hepsiburada.com/?ReturnUrl=https%3A%2F%2Foauth.hepsiburada.com%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DSPA%26redirect_uri%3Dhttps%253A%252F%252Fwww.hepsiburada.com%252Fuyelik%252Fcallback%26response_type%3Dcode%26scope%3Dopenid%2520profile%26state%3D2f4341e507a14571b1a79086078f7a83%26code_challenge%3D3Tg8FP3iX5Ty1Je-OiUwRz6fUmn2IhUgZ0vSeEESnXI%26code_challenge_method%3DS256%26response_mode%3Dquery%26ActivePage%3DPURE_LOGIN%26oidcReturnUrl%3Dhttps%253A%252F%252Fwww.hepsiburada.com%252F']/div/?/?/div[@innertext&gt;'E-posta adresinizi veya telefon']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="fbaf0012-8440-42c8-8c27-ee5a55faa0a5"
+			name="TxtPassword"
+			refimgid="95dde38a-4941-4008-8383-c490307cf32d"
+			refpath="/dom[@domain='giris.hepsiburada.com']//input[#'txtPassword']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//form[#'frmNewLogin']//input[@id='txtPassword']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="76b09789-c44d-4e62-b9e7-970e7267a93d"
+			name="BtnEmailSelect"
+			refimgid="1acf6a54-3e5c-42c6-8740-06e6572eca25"
+			refpath="/dom[@domain='giris.hepsiburada.com']//button[#'btnEmailSelect']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='giris.hepsiburada.com']//button[#'btnEmailSelect']
+			</item>
+			<basepath>
+				/dom[@domain='giris.hepsiburada.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="2150472a-4da6-4e89-ab0e-76162b3c9e33"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="2bf0b1fa-8805-4cfe-8a90-e4774b083cb1"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="97d4b020-86cf-44b4-b334-45daace9a0bc"
+		isrooted="True"
+		name="Sepetim"
+		refpath="/dom[@domain='checkout.hepsiburada.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="11f72905-830a-4781-b465-af7373f22045"
+			isrooted="True"
+			name="BasketItemListZIxvtEditMode2M07yI"
+			refpath="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="4892216d-6e31-4bd1-b0f4-886d74bf1360"
+				name="WebElementSvg"
+				refimgid="0a5f02ea-fd3b-47d9-afab-247519751916"
+				refpath="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul/li[1]/div/div/div[1]/div[2]/div[1]/a/div/tag[@tagname='svg']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul/li[1]/div/div/div[1]/div[2]/div[1]//tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="button,webelement,buttontag"
+				capname="buttontag"
+				id="c38ff7f0-ff20-4f73-b578-7ab46b73d1fa"
+				name="ButtonTagSil"
+				refimgid="369770e9-f72e-42f8-9ac5-f47840326652"
+				refpath="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul/li[1]/div/div/div[1]/div[3]/div/div/div/button[@innertext='Sil']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul/li[1]/div/div/div[1]/div[3]//button[@innertext='Sil']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="c36de984-ef1d-4c60-8bdd-eb65c1020027"
+				name="Path"
+				refimgid="3ebe2e9a-e000-465b-9bd4-44998c4f4fb7"
+				refpath="/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul/li[1]/div[2]/div/div[1]/div[2]/div[1]/a/div/tag/tag[@tagname='path']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul/li[1]/div[2]/div/div[1]/div[2]/div[1]//tag[@tagname='path']
+				</item>
+				<basepath>
+					/dom[@domain='checkout.hepsiburada.com']//section[#'onboarding_item_list']/ul
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,fonttag"
+			capname="fonttag"
+			id="0aec75ce-069c-4e84-84cf-5effbc235704"
+			name="YourCartIsCurrentlyEmpty"
+			refimgid="631b9ec0-7817-43d2-9368-e765f69079b5"
+			refpath="/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]/div[2]/h1/font/font[@innertext='Your cart is currently empty']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='checkout.hepsiburada.com']//div[#'app']/div/div/div[2]/div/div[2]/div[1]/div[2]//font[@innertext&gt;'Your cart is currently em']
+			</item>
+			<basepath>
+				/dom[@domain='checkout.hepsiburada.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

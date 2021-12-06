@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="test_ranorexRepository.rxrep" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="test_ranorexRepository.rxrep" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="test_ranorex.Recording5.Validate_CartItemCount(RepoItemInfo spantagInfo)" />
+      <Element value="test_ranorex.Recording3.Key_sequence_TxtUserName(RepoItemInfo inputtagInfo)" />
+      <Element value="test_ranorex.Recording2.checkClickWhenEmpty()" />
+      <Element value="test_ranorex.Recording2.Mouse_Click_BtnLogin(RepoItemInfo buttontagInfo)" />
+      <Element value="test_ranorex.Recording1.Validate_TxtUserName(RepoItemInfo inputtagInfo)" />
+    </Array>
+  </Properties>
+</Properties>

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{E4D58312-1EB8-4F6B-90F5-B8D4FBE7D820}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution test website study 1[test ranorex[test_ranorexRepository.rxrep[]]]]&#xD;&#xA;Solution test website study 1\test ranorex\test_ranorexRepository.rxrep&#xD;&#xA;Solution test website study 1\test ranorex\Program.cs" />
+  <StartupProject value="{0C696869-8B8F-49C6-802E-CDBB341AE895}" />
+</Properties>

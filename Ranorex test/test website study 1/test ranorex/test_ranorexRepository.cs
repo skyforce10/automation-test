@@ -31,6 +31,8 @@ namespace test_ranorex
         test_ranorexRepositoryFolders.UEyeGirişSayfasıUEyeOlHepsiburadAppFolder _ueyegirişsayfasıueyeolhepsiburad;
         test_ranorexRepositoryFolders.DropdownAppFolder _dropdown;
         test_ranorexRepositoryFolders.SepetimAppFolder _sepetim;
+        test_ranorexRepositoryFolders.DownloadsAppFolder _downloads;
+        test_ranorexRepositoryFolders.MyListAllHereAppFolder _mylistallhere;
 
         /// <summary>
         /// Gets the singleton class instance representing the test_ranorexRepository element repository.
@@ -51,6 +53,8 @@ namespace test_ranorex
             _ueyegirişsayfasıueyeolhepsiburad = new test_ranorexRepositoryFolders.UEyeGirişSayfasıUEyeOlHepsiburadAppFolder(this);
             _dropdown = new test_ranorexRepositoryFolders.DropdownAppFolder(this);
             _sepetim = new test_ranorexRepositoryFolders.SepetimAppFolder(this);
+            _downloads = new test_ranorexRepositoryFolders.DownloadsAppFolder(this);
+            _mylistallhere = new test_ranorexRepositoryFolders.MyListAllHereAppFolder(this);
         }
 
 #region Variables
@@ -104,6 +108,24 @@ namespace test_ranorex
         {
             get { return _sepetim; }
         }
+
+        /// <summary>
+        /// The Downloads folder.
+        /// </summary>
+        [RepositoryFolder("9b8242da-a6fa-458e-bcfd-378f4b555416")]
+        public virtual test_ranorexRepositoryFolders.DownloadsAppFolder Downloads
+        {
+            get { return _downloads; }
+        }
+
+        /// <summary>
+        /// The MyListAllHere folder.
+        /// </summary>
+        [RepositoryFolder("ca0d6313-c6a9-440d-9d48-3ad0227bca16")]
+        public virtual test_ranorexRepositoryFolders.MyListAllHereAppFolder MyListAllHere
+        {
+            get { return _mylistallhere; }
+        }
     }
 
     /// <summary>
@@ -126,6 +148,7 @@ namespace test_ranorex
             RepoItemInfo _cartitemcountInfo;
             RepoItemInfo _hesabımInfo;
             RepoItemInfo _somedivtagInfo;
+            RepoItemInfo _allmylistsInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -141,6 +164,7 @@ namespace test_ranorex
                 _cartitemcountInfo = new RepoItemInfo(this, "CartItemCount", ".//span[#'cartItemCount']", "", 30000, null, "1100c80a-c104-4e0d-8c33-d32f68be835e");
                 _hesabımInfo = new RepoItemInfo(this, "Hesabım", ".//div[#'myAccount']//span[@innertext='Hesabım']", "", 30000, null, "54bc107b-49ad-4696-bdde-0c4ea8871575");
                 _somedivtagInfo = new RepoItemInfo(this, "SomeDivTag", ".//div[#'container']/div/div", "", 30000, null, "f1b90f43-8c6d-4e10-a686-61c519f2fa3f");
+                _allmylistsInfo = new RepoItemInfo(this, "AllMyLists", ".//div[#'myAccount']//ul/?/?/a[@title='All My Lists']/?/?/font[@innertext='All My Lists']", "", 30000, null, "cb534a71-9f61-47a0-ac00-5f7342aa1ac3");
             }
 
             /// <summary>
@@ -356,6 +380,30 @@ namespace test_ranorex
                 get
                 {
                     return _somedivtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AllMyLists item.
+            /// </summary>
+            [RepositoryItem("cb534a71-9f61-47a0-ac00-5f7342aa1ac3")]
+            public virtual Ranorex.FontTag AllMyLists
+            {
+                get
+                {
+                    return _allmylistsInfo.CreateAdapter<Ranorex.FontTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AllMyLists item info.
+            /// </summary>
+            [RepositoryItemInfo("cb534a71-9f61-47a0-ac00-5f7342aa1ac3")]
+            public virtual RepoItemInfo AllMyListsInfo
+            {
+                get
+                {
+                    return _allmylistsInfo;
                 }
             }
         }
@@ -839,6 +887,267 @@ namespace test_ranorex
                 get
                 {
                     return _pathInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DownloadsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("9b8242da-a6fa-458e-bcfd-378f4b555416")]
+        public partial class DownloadsAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new Downloads  folder.
+            /// </summary>
+            public DownloadsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Downloads", "/form[@title='Downloads']", parentFolder, 30000, null, true, "9b8242da-a6fa-458e-bcfd-378f4b555416", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("9b8242da-a6fa-458e-bcfd-378f4b555416")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("9b8242da-a6fa-458e-bcfd-378f4b555416")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The MyListAllHereAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ca0d6313-c6a9-440d-9d48-3ad0227bca16")]
+        public partial class MyListAllHereAppFolder : RepoGenBaseFolder
+        {
+            test_ranorexRepositoryFolders.MyListLayoutFolder _mylistlayout;
+
+            /// <summary>
+            /// Creates a new MyListAllHere  folder.
+            /// </summary>
+            public MyListAllHereAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("MyListAllHere", "/dom[@domain='listelerim.hepsiburada.com']", parentFolder, 30000, null, false, "ca0d6313-c6a9-440d-9d48-3ad0227bca16", "")
+            {
+                _mylistlayout = new test_ranorexRepositoryFolders.MyListLayoutFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ca0d6313-c6a9-440d-9d48-3ad0227bca16")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ca0d6313-c6a9-440d-9d48-3ad0227bca16")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MyListLayout folder.
+            /// </summary>
+            [RepositoryFolder("46da1556-a1cb-4b63-9cbd-bdf1aed2c1d1")]
+            public virtual test_ranorexRepositoryFolders.MyListLayoutFolder MyListLayout
+            {
+                get { return _mylistlayout; }
+            }
+        }
+
+        /// <summary>
+        /// The MyListLayoutFolder folder.
+        /// </summary>
+        [RepositoryFolder("46da1556-a1cb-4b63-9cbd-bdf1aed2c1d1")]
+        public partial class MyListLayoutFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _webelementsvgInfo;
+            RepoItemInfo _createlistbuttonInfo;
+            RepoItemInfo _createlistInfo;
+            RepoItemInfo _createInfo;
+            RepoItemInfo _listnameInfo;
+
+            /// <summary>
+            /// Creates a new MyListLayout  folder.
+            /// </summary>
+            public MyListLayoutFolder(RepoGenBaseFolder parentFolder) :
+                    base("MyListLayout", ".//div[#'root']/div/div/div[3]", parentFolder, 30000, null, false, "46da1556-a1cb-4b63-9cbd-bdf1aed2c1d1", "")
+            {
+                _webelementsvgInfo = new RepoItemInfo(this, "WebElementSvg", ".//button/tag[@tagname='svg']", "", 30000, null, "543b8e0e-7656-4680-ba0c-ed7bba0c3590");
+                _createlistbuttonInfo = new RepoItemInfo(this, "CreateListButton", "div[2]/div/div[1]/div[3]//div[@id='createListButton']", "", 30000, null, "bf4322ba-4609-4dba-b7a4-17f1cbcd62bf");
+                _createlistInfo = new RepoItemInfo(this, "CreateList", "div[2]/div/div[1]/div[3]//div[@id='createListButton']/?/?/font[@innertext='Create List']", "", 30000, null, "db510571-62f1-45d3-a9c1-0a06f946b3f2");
+                _createInfo = new RepoItemInfo(this, "Create", "div[2]/div/div[1]/div[3]//form[@action='https://listelerim.hepsiburada.com/']/button/?/?/font[@innertext='Create']", "", 30000, null, "b075e980-b7dc-4014-890e-237151efa57b");
+                _listnameInfo = new RepoItemInfo(this, "ListName", "div[2]/div/div[1]/div[3]//form[@action='https://listelerim.hepsiburada.com/']/div[2]//input[@id='listName']", "", 30000, null, "41507b16-8d6f-4dd8-9824-f25d8f318e30");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("46da1556-a1cb-4b63-9cbd-bdf1aed2c1d1")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("46da1556-a1cb-4b63-9cbd-bdf1aed2c1d1")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg item.
+            /// </summary>
+            [RepositoryItem("543b8e0e-7656-4680-ba0c-ed7bba0c3590")]
+            public virtual Ranorex.WebElement WebElementSvg
+            {
+                get
+                {
+                    return _webelementsvgInfo.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WebElementSvg item info.
+            /// </summary>
+            [RepositoryItemInfo("543b8e0e-7656-4680-ba0c-ed7bba0c3590")]
+            public virtual RepoItemInfo WebElementSvgInfo
+            {
+                get
+                {
+                    return _webelementsvgInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CreateListButton item.
+            /// </summary>
+            [RepositoryItem("bf4322ba-4609-4dba-b7a4-17f1cbcd62bf")]
+            public virtual Ranorex.DivTag CreateListButton
+            {
+                get
+                {
+                    return _createlistbuttonInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CreateListButton item info.
+            /// </summary>
+            [RepositoryItemInfo("bf4322ba-4609-4dba-b7a4-17f1cbcd62bf")]
+            public virtual RepoItemInfo CreateListButtonInfo
+            {
+                get
+                {
+                    return _createlistbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CreateList item.
+            /// </summary>
+            [RepositoryItem("db510571-62f1-45d3-a9c1-0a06f946b3f2")]
+            public virtual Ranorex.FontTag CreateList
+            {
+                get
+                {
+                    return _createlistInfo.CreateAdapter<Ranorex.FontTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CreateList item info.
+            /// </summary>
+            [RepositoryItemInfo("db510571-62f1-45d3-a9c1-0a06f946b3f2")]
+            public virtual RepoItemInfo CreateListInfo
+            {
+                get
+                {
+                    return _createlistInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Create item.
+            /// </summary>
+            [RepositoryItem("b075e980-b7dc-4014-890e-237151efa57b")]
+            public virtual Ranorex.FontTag Create
+            {
+                get
+                {
+                    return _createInfo.CreateAdapter<Ranorex.FontTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Create item info.
+            /// </summary>
+            [RepositoryItemInfo("b075e980-b7dc-4014-890e-237151efa57b")]
+            public virtual RepoItemInfo CreateInfo
+            {
+                get
+                {
+                    return _createInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ListName item.
+            /// </summary>
+            [RepositoryItem("41507b16-8d6f-4dd8-9824-f25d8f318e30")]
+            public virtual Ranorex.InputTag ListName
+            {
+                get
+                {
+                    return _listnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ListName item info.
+            /// </summary>
+            [RepositoryItemInfo("41507b16-8d6f-4dd8-9824-f25d8f318e30")]
+            public virtual RepoItemInfo ListNameInfo
+            {
+                get
+                {
+                    return _listnameInfo;
                 }
             }
         }

@@ -109,6 +109,17 @@ name="test_ranorexRepository">
 			searchtimeout="30000ms">
 				/dom[@domain='www.hepsiburada.com']//div[#'container']/div/div
 			</item>
+			<item
+			addcaps="unknown,webelement,fonttag"
+			capname="fonttag"
+			id="cb534a71-9f61-47a0-ac00-5f7342aa1ac3"
+			name="AllMyLists"
+			refimgid="71d2c5fe-7e7e-4a1a-85c7-4e9f82dae34d"
+			refpath="/dom[@domain='www.hepsiburada.com']//div[#'myAccount']/div/div[2]/ul/li[6]/a/font/font[@innertext='All My Lists']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.hepsiburada.com']//div[#'myAccount']//ul/?/?/a[@title='All My Lists']/?/?/font[@innertext='All My Lists']
+			</item>
 			<basepath>
 				/dom[@domain='www.hepsiburada.com']
 			</basepath>
@@ -339,6 +350,125 @@ TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
 			</item>
 			<basepath>
 				/dom[@domain='checkout.hepsiburada.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="9b8242da-a6fa-458e-bcfd-378f4b555416"
+		isrooted="True"
+		name="Downloads"
+		refpath="/form[@title='Downloads']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Downloads']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAETSURBVDhPY8AGzGq2/7fqOI6CTYFiUGnCwLL9
++H/HeS9QsEXbceINMAcqdgBqQsZmpBhg2nr8v/3cFyjYBCgGlSYMjIGK7YCakLFRCwkGgBTbzHmB
+gg2bSTDAAKjYevYLFKxPigF6TcCoA2pCxrpAMag0KlDMWDZfvWw7WAEMG/Xd+G856wUKBolpNx6H
+Y6XCTf+l05bNBxuiADREr/38f3OgQmKwDlAtXDMMSAMN0W07/99sJjDO8WBtoBpJdM0wAJIAKTAF
+KsSGtVrP/xdLxaEZBiSACjSBCk1mABMPEtYAigknE9AMAyCF6i3n/xsBNYIwiE20ZhgQBGpQbT7/
+H4RBbKgwaUAgYdl8EIZysQAGBgDeTi2CRBfX1gAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ca0d6313-c6a9-440d-9d48-3ad0227bca16"
+		isrooted="True"
+		name="MyListAllHere"
+		refimgid="b4feaa99-fc2d-42b4-b893-6bbd3760126d"
+		refpath="/dom[@domain='listelerim.hepsiburada.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="46da1556-a1cb-4b63-9cbd-bdf1aed2c1d1"
+			isrooted="True"
+			name="MyListLayout"
+			refpath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="543b8e0e-7656-4680-ba0c-ed7bba0c3590"
+				name="WebElementSvg"
+				refimgid="ae4e1291-ab59-4d5d-9783-344206a2a046"
+				refpath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div[2]/button/tag[@tagname='svg']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]//button/tag[@tagname='svg']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="bf4322ba-4609-4dba-b7a4-17f1cbcd62bf"
+				name="CreateListButton"
+				refimgid="208f59be-f40a-4331-875d-39690aef9c6e"
+				refpath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]/div/div/div[1]/div[@id='createListButton']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]//div[@id='createListButton']
+				</item>
+				<item
+				addcaps="unknown,webelement,fonttag"
+				capname="fonttag"
+				id="db510571-62f1-45d3-a9c1-0a06f946b3f2"
+				name="CreateList"
+				refimgid="62e533e3-898a-4a0e-be56-47606f1b18d5"
+				refpath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]/div/div/div[1]/div/font/font[@innertext='Create List']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]//div[@id='createListButton']/?/?/font[@innertext='Create List']
+				</item>
+				<item
+				addcaps="unknown,webelement,fonttag"
+				capname="fonttag"
+				id="b075e980-b7dc-4014-890e-237151efa57b"
+				name="Create"
+				refimgid="30ec7cbc-9c45-4c29-8d50-139aadbb5f15"
+				refpath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]/div/div/div[2]/form/button/font/font[@innertext='Create']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]//form[@action='https://listelerim.hepsiburada.com/']/button/?/?/font[@innertext='Create']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="41507b16-8d6f-4dd8-9824-f25d8f318e30"
+				name="ListName"
+				refimgid="9b6657b0-4a02-45e9-9407-c1612ca23a52"
+				refpath="/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]/div/div/div[2]/form/div[2]/div/div/input[@id='listName']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]/div[2]/div/div[1]/div[3]//form[@action='https://listelerim.hepsiburada.com/']/div[2]//input[@id='listName']
+				</item>
+				<basepath>
+					/dom[@domain='listelerim.hepsiburada.com']//div[#'root']/div/div/div[3]
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='listelerim.hepsiburada.com']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN

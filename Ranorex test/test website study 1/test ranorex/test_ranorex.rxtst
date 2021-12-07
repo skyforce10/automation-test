@@ -49,6 +49,12 @@
 			name="case_6">
 			</testcase>
 			<testmodule
+			id="6e961bf0-2278-43a2-84c9-8c94633cf4dd"
+			name="Recording6"
+			ref="f102290e-1642-469d-b179-7d24e97d4f1e"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="6f14c644-a89f-42fe-9157-73e4287d843b"
 			name="Recording1"
 			ref="d23f268b-e51b-4bb8-bbbc-7ecca8e53947"
@@ -193,13 +199,17 @@
 					id="447c81e1-644a-4577-9259-ce27eb90c059"
 					name="case_6">
 						<testmodule
-						id="87820330-6f34-4afd-adb5-65c31f77d296"
-						name="Recording7">
+						id="6e961bf0-2278-43a2-84c9-8c94633cf4dd"
+						name="Recording6">
 						</testmodule>
 					</testcase>
 					<testcase
 					id="fe84d3f8-b9f1-4775-8cfd-428808c17d4e"
 					name="case_7">
+						<testmodule
+						id="87820330-6f34-4afd-adb5-65c31f77d296"
+						name="Recording7">
+						</testmodule>
 					</testcase>
 					<testcase
 					id="9a929148-7e67-4c55-8fc3-e1051ff723e3"
